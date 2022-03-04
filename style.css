@@ -1,0 +1,77 @@
+
+*{
+    font-family: "popipins";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#headerdiv{
+    background-image: url(/img/portada.png);
+    background-size: cover;
+    background-position: center center;
+  background-repeat: no-repeat;
+  
+  
+  
+  
+}
+
+.ban{
+    color: white;
+    padding-top: 8%;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+ .ban2{
+    color: white;
+    padding-top: 2%;
+    font-size: 75px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+    padding-bottom: 4%;
+ }
+ 
+ 
+.carta{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.producto{
+    background-color: #F8DFEE ;
+    width: 310px;
+    padding: 20px;
+    box-shadow: 1px 1px 5px rgb(201, 201,201);
+}
+.cardFoto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.cardFoto img{
+    width:300px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgb(red, green, blue);
+}
+
+hr{
+    
+    background-color: white;
+    
+    
+}
+
+.txtHomepage{
+    text-align: center;
+}
+
+.txtProdPopulares{
+    text-align: center;
+}
